@@ -1,0 +1,114 @@
+body{
+    height: 250vh;
+    background-color: #333333;
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+header h2 {
+    font-family: 'Sonsie One', cursive;
+    padding-top: 10px;
+   
+}
+
+header {
+    
+    color: lightgray;
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+
+main{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr); 
+    background-color:#333333;
+
+}
+h3 {
+    background-color: white;
+    border-bottom: 1px dashed black;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+}
+
+.pic {
+    border: 1px solid black;
+}
+.boats {
+    background-image: url("images/lake.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+
+.building {
+    background-image: url("images/empire.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.human {
+    background-image: url("images/person.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tree {
+    background-image: url("images/tree.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.arch {
+    background-image: url("images/geo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sand {
+    background-image: url("images/sand.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bridge  {
+    background-image: url("images/bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.camera {
+    background-image: url("images/lens.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+@media only screen and (min-width: 600px){
+
+
+    body{
+        height: 75vh;
+        
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2, 1fr); 
+        background-color: #333333;
+        padding: 50px;
+    }
+    
+   
+}
+
+
+
